@@ -15,8 +15,9 @@ end
 puts using_reverse(['john', 'jacobs', 'jingle'])
 
 def using_first(array)
-
+  return array.first
 end
+puts using_first(['john', 'jacobs', 'jingle'])
 
 def using_last(array)
 
