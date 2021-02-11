@@ -27,3 +27,4 @@ puts using_last(['john', 'jacobs', 'jingle'])
 def using_size(array)
   return array.size
 end
+puts using_size(['john', 'jacobs', 'jingle'])
