@@ -10,8 +10,9 @@ end
 puts using_sort(['john', 'jacobs', 'jingle'])
 
 def using_reverse(array)
-
+  return new_array = array.reverse
 end
+puts using_reverse(['john', 'jacobs', 'jingle'])
 
 def using_first(array)
 
