@@ -20,9 +20,10 @@ end
 puts using_first(['john', 'jacobs', 'jingle'])
 
 def using_last(array)
-
+  return array.last
 end
+puts using_last(['john', 'jacobs', 'jingle'])
 
 def using_size(array)
-
+  return array.size
 end
