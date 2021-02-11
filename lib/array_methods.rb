@@ -5,8 +5,9 @@ puts using_include(['john', 'jacobs', 'jingle'], 'jacobs')
 puts using_include(['john', 'jacobs', 'jingle'], 'sarah')
 
 def using_sort(array)
-
+  return new_array = array.sort
 end
+puts using_sort(['john', 'jacobs', 'jingle'])
 
 def using_reverse(array)
 
